@@ -8,15 +8,15 @@ namespace HomeWork
     {
         public double[] GetArray(double[] array)
         {
-            Console.Write($"Enter Array Length: ");
+            Console.Write($"Введите длину массива: ");
             array = new double[int.Parse(Console.ReadLine())];
 
             for (int i = 0; i < array.Length; i++)
             {
-                Console.Write($"Enter Value {i}:");
+                Console.Write($"Введите значение {i}:");
                 array[i] = (double.Parse(Console.ReadLine()));
             }
-            return array;//hi Danil
+            return array;
         }
     }
 }

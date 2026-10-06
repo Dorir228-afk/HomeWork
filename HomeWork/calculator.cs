@@ -74,6 +74,19 @@ namespace HomeWork
         {
             return Total * (1 - precent / 100);
         }
+        public double Factorial(double n)
+        {
+            double result = 1;
+            for (int i = 2; i < n; i++)
+            {
+                result *= i;
+            }
+            return result;
+        }
+        public double deprecenet(double Total, float value)
+        {
+            return Total / value * 100;
+        }
+            }
 
     }
-}
