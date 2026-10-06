@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace lesson6
+namespace HomeWork
 {
     internal class GUIConsolApp
     {
@@ -16,7 +16,7 @@ namespace lesson6
                 Console.Write($"Enter Value {i}:");
                 array[i] = (double.Parse(Console.ReadLine()));
             }
-            return array;//рш ьщрфьув
+            return array;//hi Danil
         }
     }
 }

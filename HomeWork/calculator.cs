@@ -5,7 +5,7 @@ using System.Reflection.Metadata.Ecma335;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
-namespace lesson6
+namespace HomeWork
 {
     internal class calculator
     {
