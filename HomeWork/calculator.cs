@@ -18,7 +18,10 @@ namespace HomeWork
             }
             return result;
         }
-
+        public double minus(double num1, double num2)
+        {
+            return num1 - num2; 
+        }
         public double Sum(double num1, double num2)
         {
             return num1 + num2;
@@ -66,9 +69,9 @@ namespace HomeWork
 
         }
 
-        public double precenet(double Total, float precent)
+        public double precenet(double num, double prc)
         {
-            return Convert.ToSingle(Total * precent / 100);
+            return (num * prc) / 100;
         }
         public double FinalPrice(double Total, float precent)
         {
@@ -83,10 +86,11 @@ namespace HomeWork
             }
             return result;
         }
-        public double deprecenet(double Total, float value)
+        public double deprecenet(double first, double last)
         {
-            return Total / value * 100;
+            return last / first * 100;
         }
-            }
 
     }
+
+}
